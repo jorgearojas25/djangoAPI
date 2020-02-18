@@ -3,7 +3,7 @@
 import environ
 
 ROOT_DIR = environ.Path(__file__) - 3
-APPS_DIR = ROOT_DIR.path('djangoAPI')
+APPS_DIR = ROOT_DIR.path('djangoapi')
 
 env = environ.Env()
 
@@ -139,7 +139,7 @@ ADMINS = [
 MANAGERS = ADMINS
 
 # Celery
-INSTALLED_APPS += ['djangoAPI.taskapp.celery.CeleryAppConfig']
+INSTALLED_APPS += ['djangoapi.taskapp.celery.CeleryAppConfig']
 if USE_TZ:
     CELERY_TIMEZONE = TIME_ZONE
 CELERY_BROKER_URL = env('CELERY_BROKER_URL')
