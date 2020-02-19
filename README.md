@@ -1,7 +1,5 @@
-Comparte Ride
+A base django api
 =============
-
-Group-bounded, invite-only, carpooling platform
 
 for run this project run
 
