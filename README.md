@@ -3,10 +3,10 @@ A base django api
 
 for run this project run
 
-1. build images:'docker-compose -f local.yml build'
-2. see with: 'docker images'
-3. run stack: 'docker-compose -f local.yml up'
-4. administration commands: 'docker-compose -f local.yml run --rm django python manage.py createsuperuser'
+    1. build images:'docker-compose -f local.yml build'
+    2. see with: 'docker images'
+    3. run stack: 'docker-compose -f local.yml up'
+    4. administration commands: 'docker-compose -f local.yml run --rm django python manage.py createsuperuser'
 
 To see de contaniers: 'docker-compose -f local.yml ps'
 
